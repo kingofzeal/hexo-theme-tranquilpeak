@@ -59,17 +59,17 @@ sidebar:
         #    icon: question
     author_links:
          github:
-             title: kingofzeal
+             title: global.github
              url: https://github.com/kingofzeal
              icon: github
-        # stack_overflow:
-        #     title: global.stack_overflow
-        #     url: http://stackoverflow.com/users
-        #     icon: stack-overflow
-        # twitter:
-        #     title: global.twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
+         stack_overflow:
+             title: global.stack_overflow
+             url: http://stackoverflow.com/users/1088711
+             icon: stack-overflow
+         twitter:
+             title: global.twitter
+             url: https://twitter.com/kingofzeal
+             icon: twitter
         # facebook:
         #     title: global.facebook
         #     url: https://facebook.com/
@@ -142,7 +142,7 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: false
@@ -170,7 +170,7 @@ cover_image: cover.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
 favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
-image_gallery: true
+image_gallery: false
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
 archive_pagination: true
 category_pagination: true
