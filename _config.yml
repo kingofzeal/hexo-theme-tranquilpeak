@@ -47,21 +47,21 @@ sidebar:
             title: global.archives
             url: /all-archives
             icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
-        about:
-            title: global.about
-            url: /#about
-            icon: question
+        #search:
+        #    title: global.search
+        #    url: /#search
+        #    icon: search
+        #    # `open-algolia-search` classes are used to open algolia search modal
+        #    class: open-algolia-search
+        #about:
+        #    title: global.about
+        #    url: /#about
+        #    icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+         github:
+             title: kingofzeal
+             url: https://github.com/kingofzeal
+             icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -145,7 +145,9 @@ author:
 sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
-clear_reading: true
+clear_reading: false
+# Head title displayed at the top of the table of contents. 
+toc_title: Table of contents 
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
 thumbnail_image: true
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
@@ -172,26 +174,26 @@ image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
 archive_pagination: true
 category_pagination: true
-tag_pagination: true
+tag_pagination: false
 
 
 # Integrated services
 # You can't use Disqus and Duoshuo together
 # then fill the right shortname
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: fuzzy-spork
 # Your Duoshuo shortname
-duoshuo_shortname:
+# duoshuo_shortname:
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-85482724-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
-baidu_analytics_id:
+# baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email:
+# gravatar_email:
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
-fb_admin_ids:
+# fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
-fb_app_id:
+# fb_app_id:
 
 
 # Sharing options
